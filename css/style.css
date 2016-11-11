@@ -1,6 +1,7 @@
 /*porfolio boostrap style*/
 body {
     font-family: sans-serif;
+    padding-top: 20px;
 }
 
 
@@ -55,13 +56,24 @@ header img {
 }
 
 
-/*estilo HR*/
+/*===img perfil HEADER===*/
+
+img.circle-img {
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 12px solid #2392F7;
+}
+
+
+
+
+/*====estilo HR=====*/
 
 hr {    
-    border: solid;
     background-color: #2392F7;
     color: #7D8BA8;
-    height: 2px;
+    height: 6px;
     width: 60%
 }
 
@@ -150,5 +162,19 @@ img.img-gal:hover {
         box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
         margin-bottom:20px;
         margin: 20px auto;  
+    }
+
+    img.circle-img {
+        border: none;
+    }
+
+    img.shadow-box {
+        -webkit-box-shadow: 10px 10px 93px 19px rgba(35,146,247,1);
+        -moz-box-shadow: 10px 10px 93px 19px rgba(35,146,247,1);
+        box-shadow: 10px 10px 93px 19px rgba(35,146,247,1);
+    }
+
+    .img-custom{
+        margin: 0 auto 60px auto;
     }
 }
